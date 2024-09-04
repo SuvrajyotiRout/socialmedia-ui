@@ -1,0 +1,29 @@
+.left-container {
+    flex: 3;
+    height: 100vh;
+    color: black;
+
+
+}
+
+.showmore-btn button {
+    margin-left: 30%;
+    padding: 5px;
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.service {
+    margin-bottom: 15px;
+}
+
+.lefticon {
+    font-size: 28px;
+}
+
+.service span {
+    margin-left: 15px;
+    font-size: 23px;
+}

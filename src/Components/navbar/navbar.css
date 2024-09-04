@@ -1,0 +1,102 @@
+.nav-container {
+    height: 70px;
+    width: 100vw;
+    margin-top: -8px;
+    background-color: rgb(29, 20, 215);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    margin-top: -70px;
+}
+
+.project-logo h2 {
+    color: white;
+}
+
+.search-box {
+    height: 30px;
+    width: 300px;
+    background-color: white;
+    margin-top: 22px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.search-logo {
+
+    background-color: #0000 !important;
+    /* border-radius: 50%; */
+    /* margin-top: 3px; */
+    margin-right: 5px;
+}
+
+
+.input-box input {
+
+    width: 250px;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.notifications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.timelines {
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.timelines p {
+    margin-right: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.icons {
+    font-size: 25px;
+    color: white;
+}
+
+.notificationIcons {
+    display: flex;
+    margin-right: 25px;
+}
+
+.reddot {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 15px;
+    z-index: 1;
+}
+
+.profile-photo img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-photo {
+    margin-top: 22px;
+}

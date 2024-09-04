@@ -1,0 +1,26 @@
+.right-container {
+    flex: 3;
+    height: 100vh;
+}
+
+.friends-birthday {
+    display: flex;
+    align-items: center;
+}
+
+.gift-icon {
+    margin-right: 10px;
+    color: brown;
+    font-size: 30px;
+}
+
+.ads {
+    width: 80%;
+}
+
+.ads img {
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 5px;
+
+}

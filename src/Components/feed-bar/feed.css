@@ -1,0 +1,163 @@
+.feed-container {
+    flex: 6;
+    height: 100vh;
+    /* background-color: khaki; */
+}
+
+.post-card {
+    height: 170px;
+    width: 80%;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 70px;
+
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 25px whitesmoke;
+    font-size: 17px;
+    color: #fff;
+    background-color: white;
+}
+
+.postupper-part img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.postupper-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+hr {
+    width: 85%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.postupper-part input {
+    width: 70%;
+    border: none;
+    outline: none;
+    margin-right: 70px;
+
+}
+
+.feed-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.feed-icons {
+    color: black;
+    display: flex;
+}
+
+.post-photo {
+    color: orangered;
+    display: flex;
+}
+
+.tags {
+    color: blue;
+    display: flex;
+}
+
+.location {
+    color: green;
+    display: flex;
+}
+
+.feeling {
+    color: gold;
+    display: flex;
+}
+
+.sharebtn button {
+    padding: 5px;
+    color: white;
+    background-color: green;
+    border-radius: 3px;
+
+}
+
+.posts {
+    height: 400px;
+    width: 70%;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 70px;
+
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 25px whitesmoke;
+    font-size: 17px;
+    color: #181616;
+    background-color: white;
+
+}
+
+.posts-uppercontent {
+    display: flex;
+    color: black;
+    align-items: center;
+    margin-top: 16px;
+    justify-content: space-between;
+
+}
+
+.upperpost-left img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+.upperpost-left {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: large;
+    font-weight: 500;
+
+}
+
+.upperpost-left p {
+    font-size: 15px;
+    color: rgb(54, 51, 51);
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.three-dots {
+    margin-right: 15px;
+}
+
+.posts-middlecontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.middlecontent img {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.post-reactions {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
